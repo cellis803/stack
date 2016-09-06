@@ -1,0 +1,22 @@
+{
+  "name": "stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cellis803/stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cellis803/stack/issues"
+  },
+  "homepage": "https://github.com/cellis803/stack#readme",
+  "dependencies": {
+    "prompt-sync": "^4.1.4"
+  }
+}
