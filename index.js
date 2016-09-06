@@ -1,21 +1,35 @@
 console.log("hello world");
 
-var stackObject = {
+var StackObject = {
 
     stack : [],
 
     push : function (obj) {
+        stack.push(obj);
 
     },
 
     pop : function() {
-        return null;
+        if (stack.length > 0) {
+            var elem = stack[0];
+            stack.slice(0,1)
+            return elem;
+        } else {
+            return null;
+        }
     },
 
     peek : function() {
-        return 'test';
+        if (stack.length > 0) {
+            return stack[stack.length - 1];
+        } else {
+            return null;
+        }
     }
 }
 
-console.log(stackObject.peek());
+function StackObjectConstructor() {
+    return Object.create(StackObject);
+}
 
+var instance = StackObjectConstructor();
