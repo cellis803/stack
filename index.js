@@ -1,21 +1,23 @@
 console.log("hello world");
-
-var stackObject = {
+var StackObject = {
 
     stack : [],
-
     push : function (obj) {
 
     },
-
     pop : function() {
         return null;
     },
-
     peek : function() {
         return 'test';
     }
 }
 
-console.log(stackObject.peek());
+function StackObjectConstructor() {
+    return Object.create(StackObject);
+
+}
+
+var myStack = StackObjectConstructor();
+console.log(myStack.peek());
 
