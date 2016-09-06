@@ -1,3 +1,4 @@
+
 console.log("hello world");
 
 var StackObject = {
@@ -32,3 +33,5 @@ function StackObjectConstructor() {
 
 var myStack = StackObjectConstructor();
 console.log(myStack.peek());
+
+module.exports = myStack;

@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/cellis803/stack#readme",
   "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
     "prompt-sync": "^4.1.4"
   }
 }
