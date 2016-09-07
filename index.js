@@ -23,5 +23,12 @@ var StackObject = {
     }
 }
 
+function StackObjectConstructor() {
+    var myStack = Object.create(StackObject);
+    myStack.stack = [];
+    return myStack;
 
-module.exports = StackObject;
+}
+
+exports.StackObject = StackObject;
+exports.StackObjectConstructor = StackObjectConstructor;
