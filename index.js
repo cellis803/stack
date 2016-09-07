@@ -1,6 +1,3 @@
-
-console.log("hello world");
-
 var StackObject = {
 
     stack : [],
@@ -26,12 +23,5 @@ var StackObject = {
     }
 }
 
-function StackObjectConstructor() {
-    return Object.create(StackObject);
 
-}
-
-var myStack = StackObjectConstructor();
-console.log(myStack.peek());
-
-module.exports = myStack;
+module.exports = StackObject;
