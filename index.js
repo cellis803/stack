@@ -1,6 +1,9 @@
+// StackObject.prototype = {
+//     stack : []
+// };
+
 var StackObject = {
 
-    stack : [],
     push : function (obj) {
         this.stack.push(obj);
 
