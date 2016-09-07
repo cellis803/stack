@@ -41,8 +41,8 @@ describe('passing in strings', function () {
     it('should return an error', function () {
         var error = false;
         try {
-            
-            sum('test','test');
+
+            sum('','');
         } catch (err) {
             error = true;
         }

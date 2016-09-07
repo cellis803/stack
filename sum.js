@@ -2,7 +2,7 @@ function sum() {
     var sum = 0;
 
     for (var i in arguments) {
-        if (isNaN(arguments[i])) {
+        if (typeof arguments[i] !== 'number') {
             throw new Exception();
         }
     }
